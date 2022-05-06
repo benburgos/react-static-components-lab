@@ -1,12 +1,17 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
-div {
-  border: 1px solid black;
-}
 .container {
   margin-top: 2%;
   margin-bottom: 2%;
 }
 .column .columns {
   margin: 2%;
+}
+.card {
+  margin:5px;
+  margin-top: 0;
+  margin-bottom: -20px;
+}
+.card-header-title {
+  background-color: lightblue;
 }

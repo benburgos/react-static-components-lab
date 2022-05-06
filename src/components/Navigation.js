@@ -5,46 +5,43 @@ export default function Navigation() {
         <div class="column">
             <article class="panel is-info">
                     <p class="panel-heading">
-                        Info
+                        Navigation
                     </p>
-                    <p class="panel-tabs">
-                        <a class="is-active">All</a>
-                        <a>Public</a>
-                        <a>Private</a>
-                        <a>Sources</a>
-                        <a>Forks</a>
-                    </p>
-                    <div class="panel-block">
-                        <p class="control has-icons-left">
-                        <input class="input is-info" type="text" placeholder="Search" />
-                        <span class="icon is-left">
-                            <i class="fas fa-search" aria-hidden="true"></i>
-                        </span>
-                        </p>
-                    </div>
                     <a class="panel-block is-active">
                         <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
+                        <i class="fa-solid fa-table-columns"></i>
                         </span>
-                        bulma
+                        Dashboard
                     </a>
                     <a class="panel-block">
                         <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
+                        <i class="fa-solid fa-wrench"></i>
                         </span>
-                        marksheet
+                        Widget
                     </a>
                     <a class="panel-block">
                         <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
+                        <i class="fa-solid fa-book-open"></i>
                         </span>
-                        minireset.css
+                        Reviews
                     </a>
                     <a class="panel-block">
                         <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
+                        <i class="fa-solid fa-people-group"></i>
                         </span>
-                        jgthms.github.io
+                        Customers
+                    </a>
+                    <a class="panel-block">
+                        <span class="panel-icon">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        </span>
+                        Online Analysis
+                    </a>
+                    <a class="panel-block">
+                        <span class="panel-icon">
+                        <i class="fa-solid fa-gear"></i>
+                        </span>
+                        Settings
                     </a>
                 </article>
           </div>

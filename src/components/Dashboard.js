@@ -10,14 +10,16 @@ export default function Dashboard() {
     return (
     <div class="container">
         <div class="columns has-text-centered">
-          <Navigation />
+          <div class="column is-one-quarter">
+            <Navigation />
+          </div>
           <div class="column">
-            <div class="columns">
+            <div class="columns same-size">
               <Reviews />
               <Rating />
               <Analysis />
             </div>
-            <div class="columns is-mobile">
+            <div class="column">
               <Visitors />
             </div>
           </div>
