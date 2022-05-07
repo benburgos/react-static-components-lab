@@ -9,14 +9,12 @@ export default function Reviews() {
                 </p>
             </header>
             <div class="card-content">
+                <span class="span-header-title">3,128</span>
                 <div class="content">
-                3,128
+                <span class="span-content">You received <span class="highlight-red">-2.8% less</span> reviews than last month. Keep trying!</span>
                 </div>
                 <div class="content">
-                You received -2.8% less reviews than last month. Keep trying!
-                </div>
-                <div class="content">
-                3,127 Positive Reviews | 1 Negative Review
+                <span class="span-content">3,127 Positive Reviews | 1 Negative Review</span>
                 </div>
             </div>
         </div>

@@ -15,3 +15,17 @@
 .card-header-title {
   background-color: lightblue;
 }
+.span-header-title {
+  font-size: 50px;
+}
+.span-content {
+  font-size: 10px;
+}
+.highlight-red {
+  font-weight: bold;
+  color:red;
+}
+.highlight-green {
+  font-weight: bold;
+  color:green;
+}
